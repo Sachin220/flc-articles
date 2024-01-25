@@ -4,6 +4,7 @@ import Articles from './components/articles';
 import About from './components/about';
 import Events from './components/events';
 import Contact from './components/contacts';
+import posts from '../helper/articles.json'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       </header>
       <main>
         <About />
-        <Articles />
+        <Articles posts={posts} />
         <Events />
         <Contact />
       </main>
