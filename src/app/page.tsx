@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 import React from 'react';
 import Articles from '../components/articles';
 import About from '../components/about';
